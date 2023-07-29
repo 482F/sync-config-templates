@@ -6,4 +6,4 @@ export default deepMerge(tsCommon, {
     isolatedModules: false,
     esModuleInterop: false,
   },
-})
+})[0]
