@@ -1,0 +1,20 @@
+export default {
+  compilerOptions: {
+    target: 'ESNext',
+    useDefineForClassFields: true,
+    module: 'ESNext',
+    moduleResolution: 'Node',
+    strict: true,
+    jsx: 'preserve',
+    resolveJsonModule: true,
+    isolatedModules: true,
+    esModuleInterop: true,
+    lib: ['ESNext'],
+    skipLibCheck: true,
+    noEmit: true,
+    noUncheckedIndexedAccess: true,
+    allowImportingTsExtensions: true,
+    types: ['vitest/globals'],
+  },
+  include: ['**/*.ts', '**/*.d.ts'],
+}
