@@ -1,0 +1,13 @@
+{
+  repository: {
+    url: 'git@github.com:482F/sync-config-templates.git',
+    branch: 'master',
+  },
+  mergeMode: 'squash-merge',
+  folders: [
+    {
+      name: 'common',
+      destination: '.',
+    },
+  ],
+}
