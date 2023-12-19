@@ -1,13 +1,13 @@
 export default `
-/dist
-/env.json*
-/env.*.json*
+dist
+env.json*
+env.*.json*
 
 # node
-/node_modules
-/yarn.lock
-/.eslintcache
+node_modules
+yarn.lock
+.eslintcache
 
 # deno
-/deno.lock
+deno.lock
 `
